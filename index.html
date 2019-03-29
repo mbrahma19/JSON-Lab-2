@@ -6,37 +6,39 @@
     <title>Import Local JSON Data | Zipcode Wilmington</title>
 </head>
 <body>
-    <header class="main-header group">
-        <div class="title"><h1>Zipcode Wilmington<br>Javascript Lab - Fall 2015</h1></div>
-        <div class="lesson-link"><img src="./images/logos/js_logo.png" alt="Javascript"/></div>
-        <div class="zip-link"><img src="./images/logos/zip_logo.jpg" alt="Zipcode Wilmington"/></div>
-    </header>
+<header class="main-header group">
+    <div class="title"><h1>Zipcode Wilmington<br>Javascript Lab - Fall 2015</h1></div>
+    <div class="lesson-link"><img src="./images/logos/js_logo.png" alt="Javascript"/></div>
+    <div class="zip-link"><img src="./images/logos/zip_logo.jpg" alt="Zipcode Wilmington"/></div>
+</header>
 
-    <article>
-        <h1>Instructions</h1>
-        <p>Us the <code>XMLHttpRequest()</code> to receive the remote json feed from the following website<br>
+<article>
+    <h1>Instructions</h1>
+    <p>Use the <code>XMLHttpRequest()</code> to receive the remote json feed from the following website<br>
         https://data.sfgov.org/api/views/yitu-d5am/rows.json?accessType=DOWNLOAD
-        </p>
+    </p>
 
-        <p>The json feed list movies made in San Francisco</p>
+    <p>The json feed list movies made in San Francisco</p>
 
-        <p>Write the following info for each movie to the webpage:
-            <ul>
-                <li>movie title</li>
-                <li>release year</li>
-                <li>production company</li>
-            </ul>
-        </p>
+    <p>Write the following info for each movie to the webpage:
+    <ul>
+        <li>movie title</li>
+        <li>release year</li>
+        <li>production company</li>
+    </ul>
+    </p>
 
-        <p>Only list movies that were made at the Golden Gate Bridge</p>
+    <p>Only list movies that were made at the Golden Gate Bridge</p>
 
-        <p>Use <code>document.getElementById('result').innerHTML += <i>your_output</i>;</code> to write the movie's info to the page.</p>
-        <p>Append <code>"&ltbr&gt"</code> to output code to create a new line</p>
-    </article>
+    <p>Use <code>document.getElementById('result').innerHTML += <i>your_output</i>;</code> to write the movie's info to
+        the page.</p>
+    <p>Append <code>"&ltbr&gt"</code> to output code to create a new line</p>
+</article>
 
-    <section>
-    	<h1>Movie Information</h1>
-    	<div id="result"></div>
-    </section>
+<section>
+    <h1>Movie Information</h1>
+    <div id="result"></div>
+</section>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
